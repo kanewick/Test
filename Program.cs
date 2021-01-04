@@ -11,6 +11,7 @@ namespace Test
 {
     public class Program
     {
+        public int Age { get; set; }
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
